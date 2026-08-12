@@ -182,6 +182,10 @@
   .badge{flex-shrink:0;background:var(--lavender-blue);color:var(--indigo-deep);font-size:.85rem;font-weight:600;padding:.55rem .9rem;border-radius:10px;line-height:1.35;max-width:19rem;}
   .tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.6rem;}
   .tag{font-size:.78rem;font-weight:600;color:var(--ink-soft);background:var(--lavender);border:1px solid var(--line);padding:.3rem .7rem;border-radius:999px;}
+  .skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.15rem;}
+  .skill-group{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:1.6rem 1.75rem;box-shadow:var(--shadow-sm);}
+  .skill-group .k{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:var(--violet);font-weight:600;margin-bottom:.9rem;}
+  .skill-group .tags{margin-bottom:0;}
   .star{display:grid;gap:1rem;}
   .star-row{display:grid;grid-template-columns:120px 1fr;gap:1rem;padding-top:1rem;border-top:1px solid var(--line);}
   .star-row:first-child{border-top:none;padding-top:0;}
@@ -276,6 +280,7 @@
     .about-grid{grid-template-columns:1fr;}
     .glance{position:static;}
     .pillars{grid-template-columns:1fr;}
+    .skills-grid{grid-template-columns:1fr;}
     .impact-grid{grid-template-columns:1fr;}
     .pov-grid{grid-template-columns:1fr;gap:2rem;}
     .hero-grid{grid-template-columns:1fr;gap:2.5rem;}
@@ -306,6 +311,7 @@
     </button>
     <nav class="nav-links" id="menu">
       <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
       <a class="nav-link" href="#experience">Experience</a>
       <a class="nav-link" href="#work">Projects</a>
       <a class="nav-link" href="#perspective">Perspective</a>
@@ -406,33 +412,30 @@
   </div>
 </section>
 
-<!-- ============ HOW I WORK ============ -->
-<section class="section" id="strengths">
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
   <div class="wrap">
     <div class="sec-head reveal">
-      <p class="eyebrow">What I bring</p>
-      <h2 class="sec-title">Four things I'm counted on for.</h2>
+      <p class="eyebrow">Skills</p>
+      <h2 class="sec-title">What I work with.</h2>
+      <p class="sec-intro">The technical, analytical, and business skills I bring to a problem, and the tools I use to get there.</p>
     </div>
-    <div class="pillars">
-      <div class="pillar reveal">
-        <div class="pillar-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><path d="M15 9l-3.2 3.2L9 15"/></svg></div>
-        <h3>Commercial judgment</h3>
-        <p>Time inside finance, consulting, and marketing taught me to read the business first: what actually moves revenue, cost, and strategy, so the analysis answers a question someone cares about.</p>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <div class="k">Technical &amp; analytical</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Statistical analysis</span><span class="tag">Linear regression</span><span class="tag">Data visualization</span><span class="tag">Oracle Crystal Ball</span></div>
       </div>
-      <div class="pillar reveal d1">
-        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M9.5 3.5a6 6 0 0 0-2.5 11.4V18a2 2 0 0 0 2 2h.5"/><path d="M14.5 3.5a6 6 0 0 1 2.5 11.4V18a2 2 0 0 1-2 2h-.5"/><path d="M9 20h6"/></svg></div>
-        <h3>Behavioral insight</h3>
-        <p>A psychology minor and marketing-research experience mean I look past the surface metric for the human reason behind it, from why people open an email to why they stay or leave. Numbers plus motivation, not numbers alone.</p>
+      <div class="skill-group reveal d1">
+        <div class="k">Business &amp; strategy</div>
+        <div class="tags"><span class="tag">Business strategy</span><span class="tag">Competitive analysis</span><span class="tag">Market research</span><span class="tag">Financial modeling</span><span class="tag">Project management</span><span class="tag">Process improvement</span></div>
       </div>
-      <div class="pillar reveal d2">
-        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path d="M8 16l3-4 3 2 4-6"/></svg></div>
-        <h3>Analytical tooling</h3>
-        <p>I work in Python, SQL, and Excel, and I've built statistical and financial models for coursework and internships. I'm comfortable in the data and focused on turning it into decisions, not just charts.</p>
+      <div class="skill-group reveal d2">
+        <div class="k">Communication &amp; leadership</div>
+        <div class="tags"><span class="tag">Strategic communication</span><span class="tag">Stakeholder management</span><span class="tag">Cross-functional collaboration</span><span class="tag">Storytelling</span><span class="tag">Team leadership</span></div>
       </div>
-      <div class="pillar reveal d3">
-        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 12h5"/></svg></div>
-        <h3>Communication &amp; ownership</h3>
-        <p>I've led a 20-person team and managed stakeholders across every internship. I turn analysis into a clear story people can act on, and I take ownership of the outcome, not just the deliverable.</p>
+      <div class="skill-group reveal d3">
+        <div class="k">Tools &amp; languages</div>
+        <div class="tags"><span class="tag">Microsoft Office</span><span class="tag">Google Workspace</span><span class="tag">Canva</span><span class="tag">Adobe InDesign</span><span class="tag">Spanish (working knowledge)</span></div>
       </div>
     </div>
   </div>
@@ -611,6 +614,38 @@
           <span class="pov-num">03</span>
           <p><strong>Sports is now a data business.</strong> From player tracking and athlete health to ticketing, fan engagement, and the rapid growth of legal sports betting across the US, data sits at the center of how modern sports organizations compete and grow. It is the market I most want to build my career in.</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW I WORK ============ -->
+<section class="section section--tint" id="strengths">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">What I bring</p>
+      <h2 class="sec-title">Four things I'm counted on for.</h2>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><path d="M15 9l-3.2 3.2L9 15"/></svg></div>
+        <h3>Commercial judgment</h3>
+        <p>Time inside finance, consulting, and marketing taught me to read the business first: what actually moves revenue, cost, and strategy, so the analysis answers a question someone cares about.</p>
+      </div>
+      <div class="pillar reveal d1">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M9.5 3.5a6 6 0 0 0-2.5 11.4V18a2 2 0 0 0 2 2h.5"/><path d="M14.5 3.5a6 6 0 0 1 2.5 11.4V18a2 2 0 0 1-2 2h-.5"/><path d="M9 20h6"/></svg></div>
+        <h3>Behavioral insight</h3>
+        <p>A psychology minor and marketing-research experience mean I look past the surface metric for the human reason behind it, from why people open an email to why they stay or leave. Numbers plus motivation, not numbers alone.</p>
+      </div>
+      <div class="pillar reveal d2">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path d="M8 16l3-4 3 2 4-6"/></svg></div>
+        <h3>Analytical tooling</h3>
+        <p>I work in Python, SQL, and Excel, and I've built statistical and financial models for coursework and internships. I'm comfortable in the data and focused on turning it into decisions, not just charts.</p>
+      </div>
+      <div class="pillar reveal d3">
+        <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 12h5"/></svg></div>
+        <h3>Communication &amp; ownership</h3>
+        <p>I've led a 20-person team and managed stakeholders across every internship. I turn analysis into a clear story people can act on, and I take ownership of the outcome, not just the deliverable.</p>
       </div>
     </div>
   </div>
