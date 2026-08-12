@@ -3,31 +3,31 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kirstin Palasz — Business & Sports Analytics</title>
-<meta name="description" content="Kirstin Palasz — MSBA candidate at Wake Forest pairing commercial judgment and behavioral insight with a growing analytics toolkit." />
+<title>Kirstin Palasz · Business & Sports Analytics</title>
+<meta name="description" content="Kirstin Palasz, MSBA candidate at Wake Forest pairing commercial judgment and behavioral insight with a growing analytics toolkit." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234f46e5'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='13' fill='url(%23g)'/%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..600&display=swap" rel="stylesheet" />
 <style>
   :root{
-    --ink:#151238;
-    --ink-soft:#413c66;
-    --muted:#6f6b91;
-    --line:#e8e4f5;
-    --porcelain:#fbfaff;
+    --ink:#14162b;
+    --ink-soft:#3d3e5a;
+    --muted:#6a6b84;
+    --line:#e6e7f0;
+    --porcelain:#fbfbfd;
     --surface:#ffffff;
-    --lavender:#f3f0fd;
-    --lavender-blue:#eef1fe;
-    --indigo:#4f46e5;
-    --indigo-deep:#3b32c2;
-    --violet:#8b5cf6;
-    --periwinkle:#cbc2ff;
-    --deep-1:#191352;
-    --deep-2:#2b1c6b;
-    --grad:linear-gradient(103deg,#4f46e5 0%,#8b5cf6 100%);
-    --shadow-sm:0 8px 24px -14px rgba(45,32,120,.28);
-    --shadow-md:0 22px 48px -26px rgba(45,32,120,.42);
+    --lavender:#eff0f7;
+    --lavender-blue:#eaecf6;
+    --indigo:#3f3d8f;
+    --indigo-deep:#302e6f;
+    --violet:#7367bd;
+    --periwinkle:#b7afe0;
+    --deep-1:#161631;
+    --deep-2:#242150;
+    --grad:linear-gradient(103deg,#3f3d8f 0%,#7367bd 100%);
+    --shadow-sm:0 8px 24px -14px rgba(30,28,80,.26);
+    --shadow-md:0 22px 48px -26px rgba(30,28,80,.40);
     --maxw:1120px;
   }
 
@@ -122,8 +122,8 @@
   /* ---------- hero ---------- */
   .hero{position:relative;padding:clamp(8.5rem,16vw,12rem) 0 clamp(4.5rem,8vw,6.5rem);overflow:hidden;}
   .hero-aura{position:absolute;z-index:0;filter:blur(70px);opacity:.5;pointer-events:none;}
-  .hero-aura.a1{width:640px;height:640px;right:-160px;top:-220px;background:radial-gradient(circle at center,rgba(139,92,246,.55),transparent 62%);}
-  .hero-aura.a2{width:560px;height:560px;left:-200px;top:60px;background:radial-gradient(circle at center,rgba(79,70,229,.42),transparent 62%);}
+  .hero-aura.a1{width:640px;height:640px;right:-160px;top:-220px;background:radial-gradient(circle at center,rgba(115,103,189,.42),transparent 62%);}
+  .hero-aura.a2{width:560px;height:560px;left:-200px;top:60px;background:radial-gradient(circle at center,rgba(63,61,143,.34),transparent 62%);}
   .hero .wrap{position:relative;z-index:1;}
   .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:clamp(2rem,5vw,4.5rem);align-items:center;}
   .hero-name{font-size:clamp(2.9rem,8.5vw,6rem);font-weight:430;letter-spacing:-.035em;line-height:.98;}
@@ -153,9 +153,9 @@
   /* ---------- video ---------- */
   .video-wrap{max-width:900px;margin-inline:auto;}
   .video-frame{position:relative;aspect-ratio:16/9;border-radius:20px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-md);background:
-     radial-gradient(120% 120% at 20% 0%,rgba(139,92,246,.16),transparent 55%),
-     radial-gradient(120% 120% at 100% 100%,rgba(79,70,229,.18),transparent 55%),
-     #14103e;}
+     radial-gradient(120% 120% at 20% 0%,rgba(115,103,189,.16),transparent 55%),
+     radial-gradient(120% 120% at 100% 100%,rgba(63,61,143,.20),transparent 55%),
+     #15152f;}
   .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
   .video-placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;color:#e9e4ff;text-align:center;padding:1.5rem;}
   .video-play{width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px);}
@@ -187,6 +187,9 @@
   .star-row:first-child{border-top:none;padding-top:0;}
   .star-label{font-size:.73rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--indigo);padding-top:.15rem;}
   .star-text{color:var(--ink-soft);font-size:1.01rem;}
+  .project-desc{color:var(--ink-soft);font-size:1.03rem;line-height:1.7;margin:0;}
+  .proj-link{display:inline-flex;align-items:center;gap:.4rem;margin-top:1.1rem;font-weight:600;font-size:.92rem;color:var(--indigo);}
+  .proj-link:hover{color:var(--indigo-deep);text-decoration:underline;}
 
   /* ---------- timeline ---------- */
   .timeline{position:relative;max-width:820px;margin-left:6px;}
@@ -242,12 +245,12 @@
 
   /* ---------- contact / footer ---------- */
   .contact{background:linear-gradient(135deg,var(--deep-1),var(--deep-2));color:#e9e4ff;position:relative;overflow:hidden;}
-  .contact::after{content:"";position:absolute;width:520px;height:520px;right:-140px;bottom:-220px;background:radial-gradient(circle,rgba(139,92,246,.4),transparent 60%);filter:blur(40px);pointer-events:none;}
+  .contact::after{content:"";position:absolute;width:520px;height:520px;right:-140px;bottom:-220px;background:radial-gradient(circle,rgba(115,103,189,.38),transparent 60%);filter:blur(40px);pointer-events:none;}
   .contact .wrap{position:relative;z-index:1;}
   .contact .eyebrow{color:var(--periwinkle);}
   .contact .eyebrow::before{background:linear-gradient(90deg,var(--periwinkle),#fff);}
   .contact-title{color:#fff;font-size:clamp(2.2rem,4.5vw,3.4rem);font-weight:420;max-width:16ch;}
-  .contact-title .em{background:linear-gradient(100deg,#c9c0ff,#fff);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .contact-title .em{background:linear-gradient(100deg,#cfc8ee,#fff);-webkit-background-clip:text;background-clip:text;color:transparent;}
   .contact-sub{margin-top:1.3rem;max-width:52ch;color:#c3bce8;font-size:1.08rem;}
   .contact-actions{margin-top:2.2rem;display:flex;flex-wrap:wrap;gap:.9rem;}
   .foot-meta{margin-top:clamp(3rem,6vw,4.5rem);padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.14);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem;font-size:.86rem;color:#a79fd4;}
@@ -303,10 +306,10 @@
     </button>
     <nav class="nav-links" id="menu">
       <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#work">Projects</a>
       <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#work">Projects</a>
       <a class="nav-link" href="#perspective">Perspective</a>
-      <a class="nav-link" href="#resume">Résumé</a>
+      <a class="nav-link" href="#resume">Resume</a>
       <a class="nav-cta" href="#contact">Get in touch</a>
     </nav>
   </div>
@@ -319,23 +322,22 @@
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-copy">
-      <p class="eyebrow">MSBA Candidate — Business &amp; Sports Analytics</p>
+      <p class="eyebrow">MSBA Candidate · Business &amp; Sports Analytics</p>
       <h1 class="hero-name">Kirstin Palasz</h1>
-      <p class="hero-lead">I've always chased the <span class="em">why</span> behind a decision — analytics is how I answer it.</p>
-      <p class="hero-sub">I'm finishing my Master's in Business Analytics at Wake Forest, with a background in sports business, marketing, and psychology — pairing commercial judgment and a read on human behavior with a growing analytics toolkit to help teams make sharper, more human decisions.</p>
+      <p class="hero-lead">I've always chased the <span class="em">why</span> behind a decision. Analytics is how I answer it.</p>
+      <p class="hero-sub">I'm a Wake Forest MSBA candidate with a background in business management and experience across analytics, finance, marketing, and consulting. I'm skilled at analyzing large datasets and translating them into actionable insights that support strategic decision-making, and I bring proven leadership, stakeholder management, and project management from internships and executive roles.</p>
     <div class="cta-row">
       <a href="#work" class="btn btn-primary">See my work
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
-      <!-- EDIT: point href to your résumé PDF (keep the file in the same repo folder) -->
-      <a href="Kirstin_Palasz_Resume.pdf" class="btn btn-ghost" download>Download résumé
+      <!-- EDIT: point href to your resume PDF (keep the file in the same repo folder) -->
+      <a href="Kirstin_Palasz_Resume.pdf" class="btn btn-ghost" download>Download resume
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
       </a>
     </div>
     <div class="hero-meta">
-      <span><strong>MSBA</strong> · Sports Analytics focus</span><span class="dot"></span>
+      <span><strong>B.S.</strong> Business &amp; Enterprise Management, Psychology Minor</span><span class="dot"></span>
       <span><strong>Cum Laude</strong> · 3.82 GPA</span><span class="dot"></span>
-      <span>Psychology + Business</span><span class="dot"></span>
       <span>Chicago, IL</span>
     </div>
       </div><!-- /hero-copy -->
@@ -357,27 +359,27 @@
       <div class="about-body reveal">
         <p class="eyebrow">My story</p>
         <h2 class="sec-title" style="margin-bottom:1.6rem;">A business mind that learned to <span class="em">love the data.</span></h2>
-        <p>I came into college through sports business and psychology — two fields obsessed with the same question: what actually drives people to act. Whether it was a fan, a customer, or a market, I kept wanting to get past the story people told and find the real reason underneath. Somewhere along the way I realized those were data questions, and analytics was the discipline that could answer them.</p>
-        <p>My internships gave me the business half of that answer. I've worked inside a quantitative hedge fund, an early-stage sports &amp; entertainment consultancy, and a marketing-analytics firm — learning how organizations really make money, allocate resources, and decide. My MSBA at Wake Forest is where I'm turning that instinct into rigor: Python, SQL, and statistics on top of the commercial judgment I already trust.</p>
-        <p>What I'm building toward is a role at the intersection of strategy and analytics — ideally in sports — where I can use both sides of how I think: the read on people, and a growing command of the numbers that prove it out.</p>
+        <p>I came into college through sports business and psychology, two fields obsessed with the same question: what actually drives people to act. Whether it was a fan, a customer, or a market, I kept wanting to get past the story people told and find the real reason underneath. Somewhere along the way I realized those were data questions, and analytics was the discipline that could answer them.</p>
+        <p>My internships gave me the business half of that answer. I've worked inside a quantitative hedge fund, an early-stage sports and entertainment consultancy, and a marketing-analytics firm, learning how organizations really make money, allocate resources, and decide. My MSBA at Wake Forest is where I'm turning that instinct into rigor, adding Python, SQL, and statistics to the commercial judgment I already trust.</p>
+        <p>I think of myself as being on a hybrid path. I'm taking the transferable skills I built in business management, finance, marketing, and consulting, and mapping them onto a newly defined goal: a data-driven role, ideally in business or sports analytics, where I can pair a read on people with a growing command of the numbers.</p>
       </div>
       <aside class="glance reveal d1">
         <h3>At a glance</h3>
         <div class="glance-item">
           <div class="k">Focus</div>
-          <div class="v">Business &amp; sports analytics; strategy-side data roles</div>
+          <div class="v">Data-driven business and sports analytics</div>
         </div>
         <div class="glance-item">
           <div class="k">Strengths</div>
-          <div class="v">Consumer research, strategy, communication, project &amp; stakeholder management</div>
+          <div class="v">Business strategy, project and stakeholder management, cross-functional collaboration, leadership</div>
         </div>
         <div class="glance-item">
-          <div class="k">Currently sharpening</div>
-          <div class="v">Python, SQL, statistical &amp; financial modeling</div>
+          <div class="k">Technical skills</div>
+          <div class="v">Python, SQL, Excel; statistical analysis and linear regression</div>
         </div>
         <div class="glance-item">
           <div class="k">Education</div>
-          <div class="v">Wake Forest MSBA (2027) · B.S. Business &amp; Enterprise Mgmt (2026), Cum Laude</div>
+          <div class="v">Wake Forest MSBA (2027) · B.S. Business &amp; Enterprise Management, Psychology Minor (2026), Cum Laude</div>
         </div>
         <div class="glance-item">
           <div class="k">Based in</div>
@@ -394,7 +396,7 @@
     <div class="sec-head reveal" style="margin-inline:auto;text-align:center;">
       <p class="eyebrow" style="justify-content:center;">A quick hello</p>
       <h2 class="sec-title">Hear it in my own words.</h2>
-      <p class="sec-intro">A short introduction — who I am, why analytics, and what I'm looking for next.</p>
+      <p class="sec-intro">A short introduction: who I am, why analytics, and what I'm looking for next.</p>
     </div>
     <div class="video-wrap reveal d1">
       <div class="video-frame">
@@ -423,116 +425,29 @@
       <div class="pillar reveal">
         <div class="pillar-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><path d="M15 9l-3.2 3.2L9 15"/></svg></div>
         <h3>Commercial judgment</h3>
-        <p>Time inside finance, consulting, and marketing taught me to read the business first — what actually moves revenue, cost, and strategy — so the analysis answers a question someone cares about.</p>
+        <p>Time inside finance, consulting, and marketing taught me to read the business first: what actually moves revenue, cost, and strategy, so the analysis answers a question someone cares about.</p>
       </div>
       <div class="pillar reveal d1">
         <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M9.5 3.5a6 6 0 0 0-2.5 11.4V18a2 2 0 0 0 2 2h.5"/><path d="M14.5 3.5a6 6 0 0 1 2.5 11.4V18a2 2 0 0 1-2 2h-.5"/><path d="M9 20h6"/></svg></div>
         <h3>Behavioral insight</h3>
-        <p>A psychology minor and marketing-research reps mean I look past the surface metric for the human reason behind it — why people open, buy, stay, or leave. Numbers plus motivation, not numbers alone.</p>
+        <p>A psychology minor and marketing-research experience mean I look past the surface metric for the human reason behind it, from why people open an email to why they stay or leave. Numbers plus motivation, not numbers alone.</p>
       </div>
       <div class="pillar reveal d2">
         <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path d="M8 16l3-4 3 2 4-6"/></svg></div>
-        <h3>Analytics in progress</h3>
-        <p>I work in Python, SQL, and Excel and have built statistical and financial models for coursework and internships. I'm early in the technical journey and honest about it — and getting measurably stronger every term.</p>
+        <h3>Analytical tooling</h3>
+        <p>I work in Python, SQL, and Excel, and I've built statistical and financial models for coursework and internships. I'm comfortable in the data and focused on turning it into decisions, not just charts.</p>
       </div>
       <div class="pillar reveal d3">
         <div class="pillar-ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 12h5"/></svg></div>
         <h3>Communication &amp; ownership</h3>
-        <p>I've led a 20-person team and managed stakeholders across every internship. I turn analysis into a clear story people can act on — and I take ownership of the outcome, not just the deliverable.</p>
+        <p>I've led a 20-person team and managed stakeholders across every internship. I turn analysis into a clear story people can act on, and I take ownership of the outcome, not just the deliverable.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ PROJECTS ============ -->
-<section class="section section--tint-blue" id="work">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <p class="eyebrow">Selected work</p>
-      <h2 class="sec-title">Projects &amp; evidence.</h2>
-      <p class="sec-intro">A few pieces that show how I think — academic case studies and internship work, walked through the way I'd take a hiring manager: the situation, my role, what I did, and what it produced.</p>
-    </div>
-
-    <div class="projects">
-
-      <!-- Project 1 -->
-      <article class="project reveal">
-        <div class="project-top">
-          <div>
-            <h3 class="project-title">Red Bull Consumer Analytics &amp; Strategy</h3>
-            <div class="project-org">Marketing Research · Academic</div>
-          </div>
-          <span class="badge">100 consumer interviews synthesized into data-informed personas</span>
-        </div>
-        <div class="tags"><span class="tag">Consumer research</span><span class="tag">Competitor analysis</span><span class="tag">Personas</span><span class="tag">Strategy</span></div>
-        <div class="star">
-          <div class="star-row"><div class="star-label">Situation</div><div class="star-text">Our team studied how Red Bull could defend and grow its position as the energy-drink category filled with fast-moving competitors.</div></div>
-          <div class="star-row"><div class="star-label">Task</div><div class="star-text">I was responsible for turning a large body of messy qualitative research into insight leadership could actually use.</div></div>
-          <div class="star-row"><div class="star-label">Action</div><div class="star-text">Synthesized 100 consumer interviews alongside competitor positioning and industry-trend analysis, mapping real motivations to distinct customer segments.</div></div>
-          <div class="star-row"><div class="star-label">Result</div><div class="star-text">Delivered a set of customer personas and strategic recommendations that tied consumer psychology directly to concrete, defensible marketing moves.</div></div>
-        </div>
-      </article>
-
-      <!-- Project 2 -->
-      <article class="project reveal">
-        <div class="project-top">
-          <div>
-            <h3 class="project-title">Retirement Portfolio Forecasting &amp; Risk Analysis</h3>
-            <div class="project-org">Finance · Academic</div>
-          </div>
-          <span class="badge">Stress-tested allocation strategies against historical market data</span>
-        </div>
-        <div class="tags"><span class="tag">Financial modeling</span><span class="tag">Monte Carlo simulation</span><span class="tag">Risk</span><span class="tag">Oracle Crystal Ball</span></div>
-        <div class="star">
-          <div class="star-row"><div class="star-label">Situation</div><div class="star-text">A finance project asked us to help a hypothetical investor plan for retirement under genuine market uncertainty.</div></div>
-          <div class="star-row"><div class="star-label">Task</div><div class="star-text">My job was to quantify risk and determine which savings rate and asset allocation actually held up over time.</div></div>
-          <div class="star-row"><div class="star-label">Action</div><div class="star-text">Built a forecasting model in Oracle Crystal Ball using Scenario Manager and Goal Seek to simulate portfolio performance, stress-test allocations, and optimize savings rates.</div></div>
-          <div class="star-row"><div class="star-label">Result</div><div class="star-text">Produced a clear comparison of allocation strategies and the trade-off between risk and return — a recommendation grounded in the numbers rather than guesswork.</div></div>
-        </div>
-      </article>
-
-      <!-- Project 3 -->
-      <article class="project reveal">
-        <div class="project-top">
-          <div>
-            <h3 class="project-title">Compensation Benchmarking Database</h3>
-            <div class="project-org">Aquatic Capital Management · Internship</div>
-          </div>
-          <span class="badge">1,500+ applications structured into 15 decision-ready metrics</span>
-        </div>
-        <div class="tags"><span class="tag">Data analysis</span><span class="tag">Benchmarking</span><span class="tag">Operations</span><span class="tag">Excel</span></div>
-        <div class="star">
-          <div class="star-row"><div class="star-label">Situation</div><div class="star-text">This quantitative hedge fund needed a clearer, data-backed way to benchmark compensation as it continued to grow.</div></div>
-          <div class="star-row"><div class="star-label">Task</div><div class="star-text">I was asked to turn a large volume of raw application data into something the team could make real decisions with.</div></div>
-          <div class="star-row"><div class="star-label">Action</div><div class="star-text">Analyzed data from more than 1,500 applications and designed 15 position-specific metrics to support internal and external compensation benchmarking.</div></div>
-          <div class="star-row"><div class="star-label">Result</div><div class="star-text">Delivered a structured compensation database that gave leadership a repeatable, evidence-based foundation for future hiring and pay decisions.</div></div>
-        </div>
-      </article>
-
-      <!-- Project 4 -->
-      <article class="project reveal">
-        <div class="project-top">
-          <div>
-            <h3 class="project-title">Email Marketing Analytics — Marriott Bonvoy</h3>
-            <div class="project-org">Data Axle · Internship</div>
-          </div>
-          <span class="badge">500+ campaigns analyzed; new tracking rolled out to 20+</span>
-        </div>
-        <div class="tags"><span class="tag">Marketing analytics</span><span class="tag">Consumer behavior</span><span class="tag">Segmentation</span><span class="tag">Adoption</span></div>
-        <div class="star">
-          <div class="star-row"><div class="star-label">Situation</div><div class="star-text">Supporting a major Marriott Bonvoy marketing program, the team needed sharper targeting and a better read on what actually made subscribers engage.</div></div>
-          <div class="star-row"><div class="star-label">Task</div><div class="star-text">I focused on the behavioral side — the psychological factors behind why people open, click, and act.</div></div>
-          <div class="star-row"><div class="star-label">Action</div><div class="star-text">Analyzed 500+ email campaigns for patterns in segmentation and creative, then implemented a new tracking system across 20+ campaigns and trained six account managers to use it.</div></div>
-          <div class="star-row"><div class="star-label">Result</div><div class="star-text">Gave the team clearer, behavior-based guidance for targeting and creative, plus a tracking process that made campaign performance easy to monitor.</div></div>
-        </div>
-      </article>
-
     </div>
   </div>
 </section>
 
 <!-- ============ EXPERIENCE ============ -->
-<section class="section" id="experience">
+<section class="section section--tint-blue" id="experience">
   <div class="wrap">
     <div class="sec-head reveal">
       <p class="eyebrow">Experience</p>
@@ -547,7 +462,7 @@
       <div class="tl-item reveal">
         <div class="tl-head"><span class="tl-role">Project, Strategy &amp; Fundraising Intern</span><span class="tl-date">May – Aug 2025</span></div>
         <div class="tl-org">REVEL Moments · Remote</div>
-        <p class="tl-desc">Acted as project manager on a capital raise for a sports &amp; entertainment client — built a centralized investor pipeline tracker for 100+ prospects and redesigned 15+ pitch presentations with stronger storytelling, improving content engagement measured through DocSend.</p>
+        <p class="tl-desc">Acted as project manager on a capital raise for a sports &amp; entertainment client, building a centralized investor pipeline tracker for 100+ prospects and redesigning 15+ pitch presentations with stronger storytelling, improving content engagement measured through DocSend.</p>
       </div>
       <div class="tl-item reveal">
         <div class="tl-head"><span class="tl-role">Client Services Intern</span><span class="tl-date">May – Aug 2024</span></div>
@@ -557,8 +472,96 @@
       <div class="tl-item reveal">
         <div class="tl-head"><span class="tl-role">Student Manager</span><span class="tl-date">Sep 2023 – May 2026</span></div>
         <div class="tl-org">WFU Athletic Equipment Room · Winston-Salem, NC</div>
-        <p class="tl-desc">Managed equipment and supplies for 16 Division I men's and women's teams and 500+ student-athletes — reliable operations in a fast-moving, high-accountability environment.</p>
+        <p class="tl-desc">Managed equipment and supplies for 16 Division I athletic teams and 500+ student-athletes, keeping operations reliable in a fast-moving, high-accountability environment.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2 class="sec-title">Projects &amp; evidence.</h2>
+      <p class="sec-intro">A mix of academic case studies and analytical projects, walked through the way I'd take a hiring manager: the business context, my role, and the outcome.</p>
+    </div>
+
+    <div class="projects">
+
+      <!-- Project 1 -->
+      <article class="project reveal">
+        <div class="project-top">
+          <div>
+            <h3 class="project-title">Sweetgreen Analysis &amp; Growth Strategy</h3>
+            <div class="project-org">Strategic Management · Team project</div>
+          </div>
+          <span class="badge">Full strategic analysis of a public company with a five-year growth plan</span>
+        </div>
+        <div class="tags"><span class="tag">Strategy</span><span class="tag">Competitive analysis</span><span class="tag">Financial modeling</span><span class="tag">Market entry</span></div>
+        <p class="project-desc">For my Strategic Management course, our team ran a full strategic analysis of Sweetgreen, the publicly traded fast-casual chain, and turned it into a growth strategy. We worked through external and internal frameworks (STEEPG, Porter's Five Forces, a value chain, and a VRIST resource review) and benchmarked Sweetgreen against Chipotle, CAVA, and Shake Shack on cost structure, margins, and same-store sales. The core finding was real, hard-to-copy advantages, its Infinite Kitchen automation and farm network, sitting inside a cost structure that still runs at a loss. From there we proposed two growth moves, a smart-fridge retail network and a United Kingdom market entry, each backed by a five-year financial model with revenue, margin, and rollout targets.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:1.4rem;margin-top:1.1rem;">
+          <a class="proj-link" href="sweetgreen-analysis.pdf" target="_blank" rel="noopener" style="margin-top:0;">Strategic analysis <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+          <a class="proj-link" href="sweetgreen-strategy.pdf" target="_blank" rel="noopener" style="margin-top:0;">Growth strategy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project reveal">
+        <div class="project-top">
+          <div>
+            <h3 class="project-title">Allrecipes Data Analysis</h3>
+            <div class="project-org">Statistics · Team project</div>
+          </div>
+          <span class="badge">Term-long analysis, from descriptive statistics to regression</span>
+        </div>
+        <div class="tags"><span class="tag">Statistics</span><span class="tag">Hypothesis testing</span><span class="tag">Regression</span><span class="tag">Excel</span></div>
+        <p class="project-desc">A term-long statistics project built around a large Allrecipes dataset. Working as a team, we moved from cleaning and descriptive statistics through probability and hypothesis testing and into regression, using each stage to uncover what actually drives how recipes perform and get rated. We documented the decisions behind the analysis so the work could be followed and trusted from start to finish.</p>
+        <!-- EDIT: presentation link. Upload allrecipes.pdf next to index.html, then delete this comment and use the line below.
+        <a class="proj-link" href="allrecipes.pdf" target="_blank" rel="noopener">View presentation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a> -->
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project reveal">
+        <div class="project-top">
+          <div>
+            <h3 class="project-title">Red Bull Strategic Marketing Plan</h3>
+            <div class="project-org">Marketing · Team project</div>
+          </div>
+          <span class="badge">Consumer research behind a go-to-market plan for a new product</span>
+        </div>
+        <div class="tags"><span class="tag">Consumer research</span><span class="tag">Personas</span><span class="tag">Product launch</span><span class="tag">Go-to-market</span></div>
+        <p class="project-desc">A strategic marketing plan for Red Bull built by a four-person team. We started from the consumer: a 150-response survey and two data-backed personas, a content-creating outdoor athlete and a multitasking student, that surfaced a clear gap, heavy energy-drink users want a portable, discreet, spill-free format the can cannot deliver. From there we proposed a new product, Red Bull Boost Bites, bite-sized energy chews, and built a three-year go-to-market plan across digital, sampling, and retail distribution, with launch goals and KPIs at each stage.</p>
+        <a class="proj-link" href="redbull.pdf" target="_blank" rel="noopener">View presentation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project reveal">
+        <div class="project-top">
+          <div>
+            <h3 class="project-title">Retirement Portfolio Forecasting &amp; Risk Analysis</h3>
+            <div class="project-org">Finance · Academic project</div>
+          </div>
+          <span class="badge">Stress-tested allocation strategies against historical market data</span>
+        </div>
+        <div class="tags"><span class="tag">Financial modeling</span><span class="tag">Monte Carlo simulation</span><span class="tag">Risk</span><span class="tag">Oracle Crystal Ball</span></div>
+        <p class="project-desc">A finance project that asked me to help a hypothetical investor plan for retirement under real market uncertainty. I built a forecasting model in Oracle Crystal Ball, using Scenario Manager and Goal Seek to simulate portfolio performance, stress-test different allocations, and optimize savings rates against historical market data. The outcome was a clear comparison of allocation strategies and the trade-off between risk and return, grounded in the numbers rather than guesswork.</p>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="project reveal">
+        <div class="project-top">
+          <div>
+            <h3 class="project-title">Bojangles Game-Day Partnership Pitch</h3>
+            <div class="project-org">Sports Business · Team project</div>
+          </div>
+          <span class="badge">A Gen Z growth strategy with three activation concepts and a measurement plan</span>
+        </div>
+        <div class="tags"><span class="tag">Sports marketing</span><span class="tag">Consumer strategy</span><span class="tag">Gen Z</span><span class="tag">Measurement</span></div>
+        <p class="project-desc">A strategic partnership pitch for Bojangles and Tepper Sports &amp; Entertainment, the group behind the Carolina Panthers and Charlotte FC. Our team, Bo-Tato, took on a real commercial problem: a beloved Southern brand with an aging customer base that was not reaching Gen Z. We built the case around how younger fans actually behave on game day, watching, posting, and ordering all at once, then proposed three integrated activations: a creator content competition, real-time in-app offers tied to live game moments, and a gamified prediction game for loyalty. Each idea was designed to move a specific metric, and we closed with a measurement framework across sales, app growth, and social reach so the partnership could prove its return.</p>
+        <a class="proj-link" href="bojangles.pdf" target="_blank" rel="noopener">View presentation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
+      </article>
+
     </div>
   </div>
 </section>
@@ -601,20 +604,20 @@
     <div class="pov-grid">
       <div class="reveal">
         <p class="eyebrow">Point of view</p>
-        <p class="pov-lead">Analytics has moved from the back office to the <span class="em">front line</span> of how businesses — and teams — compete.</p>
+        <p class="pov-lead">Analytics has moved from the back office to the <span class="em">front line</span> of how businesses and teams compete, and the edge now goes to whoever turns data into a decision.</p>
       </div>
       <div class="pov-points reveal d1">
         <div class="pov-point">
           <span class="pov-num">01</span>
-          <p><strong>The edge is decision speed.</strong> In sports and in business broadly, advantage increasingly goes to organizations that turn data into faster, better calls — on talent, fans, pricing, and strategy — not just those that collect it.</p>
+          <p><strong>Decision speed is the advantage.</strong> In sports and in business, the winners are increasingly the organizations that convert data into faster, sharper calls on talent, pricing, fans, and strategy, not the ones that simply collect the most of it.</p>
         </div>
         <div class="pov-point">
           <span class="pov-num">02</span>
-          <p><strong>The best analysts are bilingual.</strong> They connect the numbers to human behavior and commercial goals. That intersection — behavioral insight, business context, and analytical rigor — is exactly where I'm building my career.</p>
+          <p><strong>Translation is the scarce skill.</strong> Models are everywhere; people who can connect the numbers to human behavior and a commercial goal are not. That intersection of behavioral insight, business context, and analytical rigor is where I work, and it is what my Red Bull and Sweetgreen projects were really about.</p>
         </div>
         <div class="pov-point">
           <span class="pov-num">03</span>
-          <p><strong>Sports is a data business now.</strong> From player performance and health to fan engagement, ticketing, and revenue, data sits at the center of how modern sports organizations grow — and it's the field I most want to work in.</p>
+          <p><strong>Sports is now a data business.</strong> From player tracking and athlete health to ticketing, fan engagement, and the rapid growth of legal sports betting across the US, data sits at the center of how modern sports organizations compete and grow. It is the market I most want to build my career in.</p>
         </div>
       </div>
     </div>
@@ -625,7 +628,7 @@
 <section class="section section--tint-blue" id="resume">
   <div class="wrap">
     <div class="sec-head reveal" style="margin-inline:auto;text-align:center;">
-      <p class="eyebrow" style="justify-content:center;">Résumé</p>
+      <p class="eyebrow" style="justify-content:center;">Resume</p>
       <h2 class="sec-title">The one-page version.</h2>
       <p class="sec-intro">Readable below, or download the PDF for your files.</p>
     </div>
@@ -643,7 +646,7 @@
       <div class="rz-head">
         <div class="rz-name">Kirstin Palasz</div>
         <div class="rz-role">Business &amp; Sports Data Analyst</div>
-        <div class="rz-contact">Chicago, IL &nbsp;·&nbsp; kirstinpalasz@gmail.com &nbsp;·&nbsp; linkedin.com/in/kirstin-palasz</div>
+        <div class="rz-contact">Chicago, IL &nbsp;·&nbsp; palaka22@wfu.edu &nbsp;·&nbsp; linkedin.com/in/kirstin-palasz</div>
       </div>
 
       <div class="rz-section">
@@ -657,8 +660,8 @@
           <div class="rz-line"><span class="rz-title">Wake Forest University, School of Business</span><span class="rz-meta">Winston-Salem, NC</span></div>
           <div class="rz-line"><span class="rz-sub">B.S. in Business &amp; Enterprise Management · Sports Business Concentration · Minor in Psychology</span><span class="rz-meta">May 2026</span></div>
           <ul>
-            <li>Cum Laude · Dean's List (all semesters) · GPA 3.82.</li>
-            <li>Study Abroad: Syracuse University Business Program — Florence, Italy (Fall 2024).</li>
+            <li>Cum Laude · Deans List (all semesters) · GPA 3.82.</li>
+            <li>Study Abroad: Syracuse University Business Program, Florence, Italy (Fall 2024).</li>
           </ul>
         </div>
       </div>
@@ -701,7 +704,7 @@
         <h3>Leadership &amp; Extracurricular</h3>
         <div class="rz-block">
           <div class="rz-line"><span class="rz-title">President &amp; Co-Captain</span><span class="rz-meta">Sep 2022 – May 2026</span></div>
-          <div class="rz-sub">WFU Women's Club Volleyball</div>
+          <div class="rz-sub">WFU Womens Club Volleyball</div>
           <ul><li>Led a 20-member team and four-person board; managed a $4,000 budget across travel, tournaments, and equipment.</li></ul>
         </div>
         <div class="rz-block">
@@ -728,7 +731,7 @@
     <h2 class="contact-title">Let's <span class="em">talk.</span></h2>
     <p class="contact-sub">I'm always up for a conversation about analytics, sports business, or a role where I can keep growing. The fastest way to reach me is email or LinkedIn.</p>
     <div class="contact-actions">
-      <a href="mailto:kirstinpalasz@gmail.com" class="btn btn-light">Email me
+      <a href="mailto:palaka22@wfu.edu" class="btn btn-light">Email me
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
       </a>
       <a href="https://linkedin.com/in/kirstin-palasz" target="_blank" rel="noopener" class="btn btn-outline-light">LinkedIn
