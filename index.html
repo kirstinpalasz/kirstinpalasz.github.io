@@ -109,6 +109,8 @@
   .btn-light:hover{transform:translateY(-2px);box-shadow:0 18px 40px -20px rgba(0,0,0,.4);}
   .btn-outline-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.4);}
   .btn-outline-light:hover{background:rgba(255,255,255,.1);transform:translateY(-2px);}
+  .email-chip{display:inline-flex;align-items:center;gap:.55rem;font-family:"Instrument Sans",sans-serif;font-weight:600;font-size:.98rem;padding:.85rem 1.4rem;border-radius:11px;border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;cursor:text;user-select:all;-webkit-user-select:all;}
+  .email-chip svg{width:18px;height:18px;opacity:.9;}
 
   /* ---------- section scaffolding ---------- */
   section{scroll-margin-top:92px;}
@@ -290,7 +292,7 @@
     .star-row{grid-template-columns:1fr;gap:.3rem;}
     .star-label{padding-top:0;}
     .badge{max-width:100%;}
-    .cta-row .btn,.contact-actions .btn{flex:1 1 auto;justify-content:center;}
+    .cta-row .btn,.contact-actions .btn,.contact-actions .email-chip{flex:1 1 auto;justify-content:center;}
   }
   @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto;}
@@ -761,9 +763,7 @@
     <h2 class="contact-title">Let's <span class="em">talk.</span></h2>
     <p class="contact-sub">I'm always up for a conversation about analytics, sports business, or a role where I can keep growing. The fastest way to reach me is email or LinkedIn.</p>
     <div class="contact-actions">
-      <a href="mailto:palaka22@wfu.edu" class="btn btn-light">Email me
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
-      </a>
+      <span class="email-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>palaka22@wfu.edu</span>
       <a href="https://linkedin.com/in/kirstin-palasz" target="_blank" rel="noopener" class="btn btn-outline-light">LinkedIn
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5"/></svg>
       </a>
