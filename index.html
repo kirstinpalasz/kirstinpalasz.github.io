@@ -508,10 +508,12 @@
             <h3 class="project-title">Fraud Detection &amp; Risk Analysis</h3>
             <div class="project-org">MSBA Analytics Challenge · Team project</div>
           </div>
-          <span class="badge">Fraud patterns across roughly 65,000 applications in a bank promotion</span>
+          <span class="badge">62% lower fraud costs while approving 88% of good customers instantly</span>
         </div>
-        <div class="tags"><span class="tag">Fraud detection</span><span class="tag">Predictive indicators</span><span class="tag">Relational data</span><span class="tag">Risk strategy</span></div>
-        <p class="project-desc">For the MSBA Analytics Challenge, our five-person team took on a fraud case for Deacon Financial Services, a commercial bank running a New Money Bonus promotion. We worked through a 43-table relational database covering roughly 65,000 customer applications to find the patterns that pointed to potential fraud. From there we developed predictive fraud indicators and evaluated risk-based screening strategies, with the goal of catching more fraud while still supporting sound approval decisions for real customers.</p>
+        <div class="tags"><span class="tag">SQL</span><span class="tag">XGBoost</span><span class="tag">Predictive modeling</span><span class="tag">Fraud detection</span><span class="tag">Cost-based decisions</span></div>
+        <p class="project-desc">For the MSBA Analytics Challenge, our five-person team took on a fraud problem at Deacon Financial Services. Its New Money Bonus grew applications 4.7x, but fraud grew 6.9x, and the bank's existing score was letting 71% of confirmed fraud straight through. We worked from a 43-table relational database, built 63 candidate variables in SQL, and found that fraud leaves fingerprints the moment someone applies: just 6% of applications share a phone, email, device, or address with 10 or more other applicants, yet they hold 47% of all fraud.</p>
+        <p class="project-desc" style="margin-top:.85rem;">We tested six models and judged them in dollars, not just accuracy. Our recommendation was a three-lane XGBoost policy that sorts every application into approve, review, or decline, with medium-risk customers opening their account right away while the $200 bonus is held for 60 days. On 23,012 test applications it cut fraud-related costs by 62%, about $57 saved per application, stopped 79% of fraud, and still approved 88% of good customers instantly.</p>
+        <a class="proj-link" href="dfs-fraud.pdf" target="_blank" rel="noopener">View presentation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;"><path d="M7 17L17 7M7 7h10v10"/></svg></a>
       </article>
 
 
